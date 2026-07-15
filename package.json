@@ -1,0 +1,61 @@
+{
+  "name": "task-management-system-backend",
+  "version": "1.0.0",
+  "description": "This project was generated using node-initdb, a CLI tool for initializing database configurations, web framework setups, and project structures in Node.js projects. *This setup requires you to choose one option from each category: a database, a web framework, a language, and a package manager.*",
+  "main": "index.ts",
+  "scripts": {
+    "dev": "tsx watch src/app.ts",
+    "build": "tsc",
+    "start": "node dist/app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/bcryptjs": "^2.4.6",
+    "@types/config": "^3.3.5",
+    "@types/debug": "^4.1.13",
+    "@types/gravatar": "^1.8.6",
+    "@types/http-errors": "^2.0.5",
+    "@types/mongoose": "^5.11.96",
+    "@types/multer": "^2.2.0",
+    "bcrypt": "^6.0.0",
+    "body-parser": "^2.3.0",
+    "concurrently": "^10.0.3",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "fs": "^0.0.1-security",
+    "http-errors": "^2.0.1",
+    "https": "^1.0.0",
+    "joi": "^18.2.3",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.7.4",
+    "multer": "^2.2.0",
+    "socket.io": "^4.8.3",
+    "swagger-jsdoc": "^6.3.0",
+    "swagger-ui-express": "^5.0.1"
+  },
+  "devDependencies": {
+    "@types/bcrypt": "^6.0.0",
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.6",
+    "@types/joi": "^17.2.2",
+    "@types/jsonwebtoken": "^9.0.10",
+    "@types/node": "^26.1.1",
+    "@types/socket.io": "^3.0.1",
+    "@types/swagger-jsdoc": "^6.0.4",
+    "@types/swagger-ui-express": "^4.1.8",
+    "tsx": "^4.23.1",
+    "typescript": "^7.0.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/priyalmehta0714/task-management-system-backend.git"
+  },
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/priyalmehta0714/task-management-system-backend/issues"
+  },
+  "homepage": "https://github.com/priyalmehta0714/task-management-system-backend#readme"
+}
